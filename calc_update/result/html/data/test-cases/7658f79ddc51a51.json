@@ -1,0 +1,134 @@
+{
+  "uid" : "7658f79ddc51a51",
+  "name" : "test_mul[float]",
+  "fullName" : "case.test_calc1.TestClac#test_mul",
+  "historyId" : "0938945c74c02a0cbbffec4115a11f4e",
+  "time" : {
+    "start" : 1613224781719,
+    "stop" : 1613224781719,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1613224781589,
+      "stop" : 1613224781590,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "fixture_demo",
+    "time" : {
+      "start" : 1613224781718,
+      "stop" : 1613224781718,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_calc::0",
+    "time" : {
+      "start" : 1613224781765,
+      "stop" : 1613224781765,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "fixture_demo::0",
+    "time" : {
+      "start" : 1613224781724,
+      "stop" : 1613224781724,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "story",
+    "value" : "测试乘法运算"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClac"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RS387SO"
+  }, {
+    "name" : "thread",
+    "value" : "11668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_calc1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0.1"
+  }, {
+    "name" : "b",
+    "value" : "0.2"
+  }, {
+    "name" : "expect",
+    "value" : "0.02"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "7658f79ddc51a51.json",
+  "parameterValues" : [ "0.1", "0.2", "0.02" ]
+}

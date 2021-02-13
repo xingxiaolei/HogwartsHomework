@@ -1,0 +1,121 @@
+{
+  "uid" : "4efb1053e26d6316",
+  "name" : "test_add[failed]",
+  "fullName" : "case.test_calc1.TestClac#test_add",
+  "historyId" : "712140e666ae340520cf55ed52d17416",
+  "time" : {
+    "start" : 1613224781611,
+    "stop" : 1613224781612,
+    "duration" : 1
+  },
+  "description" : "测试加法运算",
+  "descriptionHtml" : "<p>测试加法运算</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 4\n  +3\n  -4",
+  "statusTrace" : "self = <calc_update.case.test_calc1.TestClac object at 0x00000149D4DC6898>, get_calc = <calc.calc_func.Calculator object at 0x00000149D4DC16A0>\nget_add_datas = [1, 2, 4]\n\n    @allure.story('测试加法运算')\n    @pytest.mark.run(order=1)\n    def test_add(self, get_calc, get_add_datas):\n        '''测试加法运算'''\n        actual = get_calc.add(get_add_datas[0], get_add_datas[1])\n        if isinstance(actual, float):\n            actual = round(actual, 2)\n>       assert actual == get_add_datas[2]\nE       assert 3 == 4\nE         +3\nE         -4\n\ncase\\test_calc1.py:52: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1613224781589,
+      "stop" : 1613224781590,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_add_datas",
+    "time" : {
+      "start" : 1613224781611,
+      "stop" : 1613224781611,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_calc::0",
+    "time" : {
+      "start" : 1613224781765,
+      "stop" : 1613224781765,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "story",
+    "value" : "测试加法运算"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClac"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RS387SO"
+  }, {
+    "name" : "thread",
+    "value" : "11668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_calc1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_add_datas",
+    "value" : "[1, 2, 4]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "4efb1053e26d6316.json",
+  "parameterValues" : [ "[1, 2, 4]" ]
+}
