@@ -1,0 +1,29 @@
+add:
+  datas:
+    - [1,1,2]
+    - [0.1,0.1,0.2]
+    - [111111111,111111111,222222222]
+    - [-0.1,-0.1,-0.2]
+    - [1,2,4]
+  myid:
+    - 'int'
+    - 'float'
+    - 'bigint'
+    - 'nagetive'
+    - 'failed'
+
+div:
+  datas:
+    - [1,2,0.5]
+    - [-2,-1,2]
+    - [4,-2,-2]
+    - [0.4,2,0.2]
+    - [3,0,0]
+    - [0,3,0]
+  myid:
+    - 'int'
+    - 'nagetive'
+    - 'single-nagetive'
+    - 'float'
+    - 'right-zero'
+    - 'left-zero'
