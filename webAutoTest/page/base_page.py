@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
@@ -58,6 +59,25 @@ class BasePage:
         '''
         ele = self.find(locator)
         ele.send_keys(content)
+
+
+    def clear_send(self, locator):
+        """
+        清空输入框
+        :param locator:
+        :return:
+        """
+        ele = self.find(locator)
+        ele.clear()
+
+    def double_and_click(self, locator):
+        """
+        双击元素
+        :param locator:
+        :return:
+        """
+        ele = self.find(locator)
+        ActionChains(self.driver).double_click(ele).perform()
 
     def get_screen_shot(self):
         """
