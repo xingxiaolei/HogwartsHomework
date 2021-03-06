@@ -29,7 +29,8 @@ class ContactPage:
                 methodcaller(step['action'], step['locator'])(self.basepage)
 
     def go_back(self):
-        self.basepage.driver.back()
+        # 模拟点击手机的返回键
+        self.basepage.driver.press_keycode(4)
 
     def find_member(self, name):
         """
