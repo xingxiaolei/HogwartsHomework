@@ -1,0 +1,4 @@
+goto_contact_page:
+  - locator: ["xpath", "//*[@class='android.widget.TextView' and @text='通讯录']"]
+    action: find_click
+    content: '${value}'

@@ -1,0 +1,23 @@
+add_member:
+  - locator: '添加成员'
+    action: scroll_find
+
+  - locator: ['xpath', '//*[@text="手动输入添加"]']
+    action: find_click
+
+  - locator: ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]']
+    action: send
+    content: '${name}'
+
+  - locator: ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]']
+    action: send
+    content: '${phone}'
+
+  - locator: ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]']
+    action: find_click
+
+#  - locator: ['xpath', '//*[@class="android.widget.Toast"]']
+#    action: find
+find_member:
+  - locator: '${name}'
+    action: scroll_find
