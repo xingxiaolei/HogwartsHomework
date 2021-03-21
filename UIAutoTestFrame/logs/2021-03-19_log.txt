@@ -1,0 +1,216 @@
+2021-03-19 16:14:01,063 INFO    : 在MainPage页面
+2021-03-19 16:14:01,114 INFO    : 准备进行goto_contact操作
+2021-03-19 16:14:01,117 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:14:01,118 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:14:01,119 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:14:01,220 INFO    : 在MainPage页面
+2021-03-19 16:14:01,228 INFO    : 准备进行goto_contact操作
+2021-03-19 16:14:01,231 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:14:01,231 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:14:01,232 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:16:12,198 INFO    : 在MainPage页面
+2021-03-19 16:16:12,263 INFO    : 准备进行goto_contact操作
+2021-03-19 16:16:12,267 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:16:12,268 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:16:12,270 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:16:12,361 INFO    : 在MainPage页面
+2021-03-19 16:16:12,370 INFO    : 准备进行goto_contact操作
+2021-03-19 16:16:12,373 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:16:12,374 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:16:12,375 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:18:28,262 INFO    : 在MainPage页面
+2021-03-19 16:18:28,308 INFO    : 准备进行goto_contact操作
+2021-03-19 16:18:28,310 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:18:28,311 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:18:28,312 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:18:31,327 INFO    : 在ContactPage页面
+2021-03-19 16:18:31,360 INFO    : 准备进行add_member操作
+2021-03-19 16:18:31,379 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'content': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'content': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:18:31,381 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'content': 'aaa_1897'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'content': '13000001897'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:18:31,382 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:18:39,751 INFO    : 在MainPage页面
+2021-03-19 16:18:39,771 INFO    : 准备进行goto_contact操作
+2021-03-19 16:18:39,771 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:18:39,771 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:18:39,782 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:26:07,841 INFO    : 在MainPage页面
+2021-03-19 16:26:07,891 INFO    : 准备进行goto_contact操作
+2021-03-19 16:26:07,891 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:26:07,891 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:26:07,891 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:26:10,831 INFO    : 在ContactPage页面
+2021-03-19 16:26:10,857 INFO    : 准备进行add_member操作
+2021-03-19 16:26:10,871 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'content': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'content': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:26:10,871 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'content': 'aaa_2357'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'content': '13000002357'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:26:10,871 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:26:19,281 INFO    : 在MainPage页面
+2021-03-19 16:26:19,296 INFO    : 准备进行goto_contact操作
+2021-03-19 16:26:19,296 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:26:19,296 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:26:19,296 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:30:07,871 INFO    : 在MainPage页面
+2021-03-19 16:30:07,961 INFO    : 准备进行goto_contact操作
+2021-03-19 16:30:07,971 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:30:07,971 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:30:07,971 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:30:59,272 INFO    : 在ContactPage页面
+2021-03-19 16:31:07,011 INFO    : 准备进行add_member操作
+2021-03-19 16:31:17,261 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'content': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'content': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:31:25,641 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'content': 'aaa_2598'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'content': '13000002598'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:31:41,751 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:38:54,772 INFO    : 在MainPage页面
+2021-03-19 16:38:54,816 INFO    : 准备进行goto_contact操作
+2021-03-19 16:38:54,818 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:38:54,819 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:38:54,820 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:38:57,114 INFO    : 在ContactPage页面
+2021-03-19 16:38:57,143 INFO    : 准备进行add_member操作
+2021-03-19 16:38:57,160 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:38:57,161 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': 'aaa_3123'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '13000003123'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:38:57,162 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:39:06,441 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]']输入值aaa_3123。
+2021-03-19 16:43:52,791 INFO    : 在MainPage页面
+2021-03-19 16:43:52,841 INFO    : 准备进行goto_contact操作
+2021-03-19 16:43:52,846 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:43:52,846 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:43:52,848 INFO    : 在ContactPage页面
+2021-03-19 16:43:52,856 INFO    : 准备进行add_member操作
+2021-03-19 16:43:52,861 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:43:52,861 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': 'aaa_3420'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '13000003420'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:43:52,861 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:44:07,191 INFO    : 在MainPage页面
+2021-03-19 16:44:07,201 INFO    : 准备进行goto_contact操作
+2021-03-19 16:44:07,201 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:44:07,201 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:44:07,211 INFO    : 在ContactPage页面
+2021-03-19 16:44:07,221 INFO    : 准备进行del_member操作
+2021-03-19 16:50:19,611 INFO    : 在MainPage页面
+2021-03-19 16:50:19,661 INFO    : 准备进行goto_contact操作
+2021-03-19 16:50:19,669 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:50:19,669 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'click'}]
+2021-03-19 16:50:19,671 INFO    : 在ContactPage页面
+2021-03-19 16:50:19,671 INFO    : 准备进行add_member操作
+2021-03-19 16:50:19,681 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:50:19,681 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': 'aaa_3808'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '13000003808'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:50:19,691 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:51:15,961 INFO    : 在MainPage页面
+2021-03-19 16:51:16,011 INFO    : 准备进行goto_contact操作
+2021-03-19 16:51:16,011 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:51:16,011 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:51:16,011 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:51:19,031 INFO    : 在ContactPage页面
+2021-03-19 16:51:19,061 INFO    : 准备进行add_member操作
+2021-03-19 16:51:19,081 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:51:19,081 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': 'aaa_3863'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '13000003863'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:51:19,081 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:51:27,401 INFO    : 对['xpath', '//*[@text="手动输入添加"]']进行点击操作。
+2021-03-19 16:51:28,831 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]']输入值aaa_3863。
+2021-03-19 16:51:30,296 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]']输入值13000003863。
+2021-03-19 16:51:30,891 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]']进行点击操作。
+2021-03-19 16:51:31,501 INFO    : 对['xpath', '//*[@text="添加成功"]']进行查找操作。
+2021-03-19 16:51:33,196 INFO    : 在ContactPage页面
+2021-03-19 16:51:33,225 INFO    : 准备进行find_member操作
+2021-03-19 16:51:33,241 INFO    : 获取到find_member操作的元素数据：[{'locator': '${name}', 'action': 'scroll_find'}]
+2021-03-19 16:51:33,241 INFO    : find_member操作变量替换后的数据：[{'locator': 'aaa_3863', 'action': 'scroll_find'}]
+2021-03-19 16:51:33,241 INFO    : 对aaa_3863进行滑动查找操作
+2021-03-19 16:52:35,551 INFO    : 在MainPage页面
+2021-03-19 16:52:35,601 INFO    : 准备进行goto_contact操作
+2021-03-19 16:52:35,601 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:52:35,611 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:52:35,611 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:52:38,651 INFO    : 在ContactPage页面
+2021-03-19 16:52:38,681 INFO    : 准备进行add_member操作
+2021-03-19 16:52:38,701 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:52:38,701 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': 'aaa_3943'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '13000003943'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:52:38,701 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:52:48,071 INFO    : 对['xpath', '//*[@text="手动输入添加"]']进行点击操作。
+2021-03-19 16:52:49,461 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]']输入值aaa_3943。
+2021-03-19 16:52:50,861 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]']输入值13000003943。
+2021-03-19 16:52:51,936 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]']进行点击操作。
+2021-03-19 16:52:52,581 INFO    : 对['xpath', '//*[@text="添加成功"]']进行查找操作。
+2021-03-19 16:52:54,871 INFO    : 在ContactPage页面
+2021-03-19 16:52:54,901 INFO    : 准备进行find_member操作
+2021-03-19 16:52:54,911 INFO    : 获取到find_member操作的元素数据：[{'locator': '${name}', 'action': 'scroll_find'}]
+2021-03-19 16:52:54,911 INFO    : find_member操作变量替换后的数据：[{'locator': 'aaa_3943', 'action': 'scroll_find'}]
+2021-03-19 16:52:54,911 INFO    : 对aaa_3943进行滑动查找操作
+2021-03-19 16:54:15,831 INFO    : 在MainPage页面
+2021-03-19 16:54:15,881 INFO    : 准备进行goto_contact操作
+2021-03-19 16:54:15,881 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:54:15,881 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:54:15,881 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:54:18,891 INFO    : 在ContactPage页面
+2021-03-19 16:54:18,921 INFO    : 准备进行add_member操作
+2021-03-19 16:54:18,931 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:54:18,941 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': 'aaa_4044'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '13000004044'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:54:18,941 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:54:28,371 INFO    : 对['xpath', '//*[@text="手动输入添加"]']进行点击操作。
+2021-03-19 16:54:29,791 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]']输入值aaa_4044。
+2021-03-19 16:54:31,251 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]']输入值13000004044。
+2021-03-19 16:54:31,851 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]']进行点击操作。
+2021-03-19 16:54:32,481 INFO    : 对['xpath', '//*[@text="添加成功"]']进行查找操作。
+2021-03-19 16:54:34,871 INFO    : 在ContactPage页面
+2021-03-19 16:54:34,891 INFO    : 准备进行find_member操作
+2021-03-19 16:54:34,891 INFO    : 获取到find_member操作的元素数据：[{'locator': '${name}', 'action': 'scroll_find'}]
+2021-03-19 16:54:34,891 INFO    : find_member操作变量替换后的数据：[{'locator': 'aaa_4044', 'action': 'scroll_find'}]
+2021-03-19 16:54:34,891 INFO    : 对aaa_4044进行滑动查找操作
+2021-03-19 16:57:23,281 INFO    : 在MainPage页面
+2021-03-19 16:57:23,331 INFO    : 准备进行goto_contact操作
+2021-03-19 16:57:23,331 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:57:23,331 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:57:23,331 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:57:26,331 INFO    : 在ContactPage页面
+2021-03-19 16:57:26,371 INFO    : 准备进行add_member操作
+2021-03-19 16:57:26,394 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:57:26,394 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': 'aaa_4233'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '13000004233'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:57:26,394 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:57:35,771 INFO    : 对['xpath', '//*[@text="手动输入添加"]']进行点击操作。
+2021-03-19 16:57:37,181 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]']输入值aaa_4233。
+2021-03-19 16:57:38,641 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]']输入值13000004233。
+2021-03-19 16:57:39,751 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]']进行点击操作。
+2021-03-19 16:57:40,371 INFO    : 对['xpath', '//*[@text="添加成功"]']进行查找操作。
+2021-03-19 16:57:42,521 INFO    : 在ContactPage页面
+2021-03-19 16:57:42,551 INFO    : 准备进行find_member操作
+2021-03-19 16:57:42,561 INFO    : 获取到find_member操作的元素数据：[{'locator': '${name}', 'action': 'scroll_find'}]
+2021-03-19 16:57:42,561 INFO    : find_member操作变量替换后的数据：[{'locator': 'aaa_4233', 'action': 'scroll_find'}]
+2021-03-19 16:57:42,561 INFO    : 对aaa_4233进行滑动查找操作
+2021-03-19 16:57:53,586 INFO    : 在MainPage页面
+2021-03-19 16:57:53,611 INFO    : 准备进行goto_contact操作
+2021-03-19 16:57:53,611 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:57:53,616 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:57:53,616 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:57:54,771 INFO    : 在ContactPage页面
+2021-03-19 16:57:54,801 INFO    : 准备进行del_member操作
+2021-03-19 16:58:57,471 INFO    : 在MainPage页面
+2021-03-19 16:58:57,521 INFO    : 准备进行goto_contact操作
+2021-03-19 16:58:57,531 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:58:57,531 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:58:57,531 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:59:00,551 INFO    : 在ContactPage页面
+2021-03-19 16:59:00,581 INFO    : 准备进行add_member操作
+2021-03-19 16:59:00,596 INFO    : 获取到add_member操作的元素数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': '${name}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '${phone}'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:59:00,601 INFO    : add_member操作变量替换后的数据：[{'locator': '添加成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@text="手动输入添加"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]'], 'action': 'send', 'value': 'aaa_4325'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]'], 'action': 'send', 'value': '13000004325'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[@text="添加成功"]'], 'action': 'find'}]
+2021-03-19 16:59:00,601 INFO    : 对添加成员进行滑动查找操作
+2021-03-19 16:59:10,121 INFO    : 对['xpath', '//*[@text="手动输入添加"]']进行点击操作。
+2021-03-19 16:59:11,551 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]']输入值aaa_4325。
+2021-03-19 16:59:12,991 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]']输入值13000004325。
+2021-03-19 16:59:14,091 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]']进行点击操作。
+2021-03-19 16:59:14,681 INFO    : 对['xpath', '//*[@text="添加成功"]']进行查找操作。
+2021-03-19 16:59:16,841 INFO    : 在ContactPage页面
+2021-03-19 16:59:16,861 INFO    : 准备进行find_member操作
+2021-03-19 16:59:16,871 INFO    : 获取到find_member操作的元素数据：[{'locator': '${name}', 'action': 'scroll_find'}]
+2021-03-19 16:59:16,871 INFO    : find_member操作变量替换后的数据：[{'locator': 'aaa_4325', 'action': 'scroll_find'}]
+2021-03-19 16:59:16,871 INFO    : 对aaa_4325进行滑动查找操作
+2021-03-19 16:59:29,216 INFO    : 在MainPage页面
+2021-03-19 16:59:29,231 INFO    : 准备进行goto_contact操作
+2021-03-19 16:59:29,236 INFO    : 获取到goto_contact操作的元素数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:59:29,236 INFO    : goto_contact操作变量替换后的数据：[{'locator': ['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"], 'action': 'find_click'}]
+2021-03-19 16:59:29,241 INFO    : 对['xpath', "//*[@class='android.widget.TextView' and @text='通讯录']"]进行点击操作。
+2021-03-19 16:59:30,231 INFO    : 在ContactPage页面
+2021-03-19 16:59:30,251 INFO    : 准备进行del_member操作
+2021-03-19 16:59:30,271 INFO    : 获取到del_member操作的元素数据：[{'locator': '${name}', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/igo"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[contains(@text, "编辑成员")]'], 'action': 'find_click'}, {'locator': '删除成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/bpc"]'], 'action': 'find_click'}]
+2021-03-19 16:59:30,271 INFO    : del_member操作变量替换后的数据：[{'locator': 'aaa_4325', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/igo"]'], 'action': 'find_click'}, {'locator': ['xpath', '//*[contains(@text, "编辑成员")]'], 'action': 'find_click'}, {'locator': '删除成员', 'action': 'scroll_find'}, {'locator': ['xpath', '//*[@resource-id="com.tencent.wework:id/bpc"]'], 'action': 'find_click'}]
+2021-03-19 16:59:30,271 INFO    : 对aaa_4325进行滑动查找操作
+2021-03-19 16:59:30,661 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/igo"]']进行点击操作。
+2021-03-19 16:59:31,771 INFO    : 对['xpath', '//*[contains(@text, "编辑成员")]']进行点击操作。
+2021-03-19 16:59:32,863 INFO    : 对删除成员进行滑动查找操作
+2021-03-19 16:59:34,021 INFO    : 对['xpath', '//*[@resource-id="com.tencent.wework:id/bpc"]']进行点击操作。

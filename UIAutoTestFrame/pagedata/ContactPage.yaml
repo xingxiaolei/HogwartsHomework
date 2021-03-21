@@ -1,0 +1,41 @@
+add_member:
+  - locator: '添加成员'
+    action: scroll_find
+
+  - locator: ['xpath', '//*[@text="手动输入添加"]']
+    action: find_click
+
+  - locator: ['xpath', '//*[@resource-id="com.tencent.wework:id/b7m"]']
+    action: send
+    value: '${name}'
+
+  - locator: ['xpath', '//*[@resource-id="com.tencent.wework:id/fwi"]']
+    action: send
+    value: '${phone}'
+
+  - locator: ['xpath', '//*[@resource-id="com.tencent.wework:id/aj_"]']
+    action: find_click
+
+#  - locator: ['xpath', '//*[@class="android.widget.Toast"]']
+  - locator: ['xpath', '//*[@text="添加成功"]']
+    action: find
+
+find_member:
+  - locator: '${name}'
+    action: scroll_find
+
+del_member:
+  - locator: '${name}'
+    action: scroll_find
+
+  - locator: ['xpath', '//*[@resource-id="com.tencent.wework:id/igo"]']
+    action: find_click
+
+  - locator: ['xpath', '//*[contains(@text, "编辑成员")]']
+    action: find_click
+
+  - locator: '删除成员'
+    action: scroll_find
+
+  - locator: ['xpath', '//*[@resource-id="com.tencent.wework:id/bpc"]']
+    action: find_click
